@@ -1,7 +1,13 @@
 import Head from "next/head";
 import Image from "next/image";
+import { useEffect } from "react";
+import { initializeDataDogLog } from "../Utils/DataDogUtils";
 const styles = {};
 export default function Home() {
+  useEffect(() => {
+    initializeDataDogLog();
+  }, []);
+
   return (
     <div className={styles.container}>
       <Head>
