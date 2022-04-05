@@ -1,0 +1,27 @@
+{
+  "name": "jaswant-data-dog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaswantmandloi/jaswant-data-dog.git"
+  },
+  "author": "Jaswant Mandloi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jaswantmandloi/jaswant-data-dog/issues"
+  },
+  "homepage": "https://github.com/jaswantmandloi/jaswant-data-dog#readme",
+  "dependencies": {
+    "next": "^12.1.4",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  }
+}
